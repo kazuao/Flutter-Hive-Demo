@@ -1,0 +1,30 @@
+name: hive_demo
+description: A new Flutter project.
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+
+  # add
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.5
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+  # add
+  build_runner: ^2.1.4
+  hive_generator: ^1.1.1
+
+flutter:
+
+  uses-material-design: true
