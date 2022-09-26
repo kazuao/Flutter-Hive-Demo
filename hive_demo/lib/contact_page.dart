@@ -15,7 +15,7 @@ class ContactPage extends StatelessWidget {
       body: Column(
         children: [
           Expanded(child: _buildListView()),
-          NewContactForm(),
+          const NewContactForm(),
         ],
       ),
     );
